@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>数据可视化大屏</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body, #app { 
+      width: 100%; 
+      height: 100%; 
+      overflow: hidden;
+      font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
+    }
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+    /* Better touch interaction */
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+    /* Prevent text selection on interactive elements */
+    button, .theme-card, .stats-card {
+      user-select: none;
+      -webkit-user-select: none;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-B8OHGlW5.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-nGlOv9iJ.css">
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>
